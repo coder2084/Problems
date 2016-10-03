@@ -151,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="headers.h" />
+    <ClInclude Include="LogestSubstringWithoutRepeatingC.h" />
     <ClInclude Include="Solution.h" />
     <ClInclude Include="TwoSum.h" />
   </ItemGroup>

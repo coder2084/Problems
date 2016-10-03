@@ -32,5 +32,8 @@
     <ClInclude Include="TwoSum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LogestSubstringWithoutRepeatingC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
