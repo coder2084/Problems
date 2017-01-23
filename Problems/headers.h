@@ -9,8 +9,7 @@
 #include <iostream>
 #include <sstream>
 #include <memory>
-
-#include "Solution.h"
+#include <queue>
 
 using namespace std;
 

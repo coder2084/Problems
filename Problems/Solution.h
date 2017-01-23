@@ -2,6 +2,8 @@
 
 #include "headers.h"
 
+#pragma warning(disable:4267)
+
 struct ListNode
 {
 	int val;
@@ -17,6 +19,15 @@ public:
 };
 
 ostream& operator<<(ostream& os, const vector<int>& v)
+{
+	for (auto&& elem : v)
+	{
+		os << elem << "  ";
+	}
+	return os;
+}
+
+ostream& operator<<(ostream& os, const vector<const string*>& v)
 {
 	for (auto&& elem : v)
 	{

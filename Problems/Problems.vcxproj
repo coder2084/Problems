@@ -150,10 +150,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="FrequencySort.h" />
+    <ClInclude Include="Graph\Graph.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="LogestSubstringWithoutRepeatingC.h" />
+    <ClInclude Include="MergeTwoSortedArrays.h" />
+    <ClInclude Include="ReverseWordsInAString.h" />
     <ClInclude Include="Solution.h" />
     <ClInclude Include="TwoSum.h" />
+    <ClInclude Include="WordTransform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
