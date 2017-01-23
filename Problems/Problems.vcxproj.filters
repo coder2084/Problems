@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="DynamicProgramming">
+      <UniqueIdentifier>{6e16aee6-3f64-4316-bbb3-b4d8fe37dab5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -34,6 +37,15 @@
     </ClInclude>
     <ClInclude Include="LogestSubstringWithoutRepeatingC.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NextPermuationSameDigits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Permuations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinChange.h">
+      <Filter>DynamicProgramming</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
