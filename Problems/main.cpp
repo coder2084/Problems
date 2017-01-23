@@ -4,6 +4,7 @@
 #include "NextPermuationSameDigits.h"
 #include "Permuations.h"
 #include "CoinChange.h"
+#include "WordTransform.h"
 
 int main(int argc, char* argv[])
 {
@@ -14,6 +15,7 @@ int main(int argc, char* argv[])
 	v.push_back(std::make_unique<NextPermuation>());
 	v.push_back(std::make_unique<Permutations>());
 	v.push_back(std::make_unique<CoinChange>());
+	v.push_back(std::make_unique<WordTransform>());
 
 	for (auto&& elem : v)
 	{

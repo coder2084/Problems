@@ -59,16 +59,22 @@
     <ClInclude Include="MyUniquePtr.h">
       <Filter>SmartPtrs</Filter>
     </ClInclude>
+    <ClInclude Include="WordTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Graph\Graph.h">
       <Filter>Graph</Filter>
     </ClInclude>
-    <ClInclude Include="WordTransform.h">
+    <ClInclude Include="BinaryTreePaths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FrequencySort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MergeTwoSortedArrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseInteger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReverseWordsInAString.h">
