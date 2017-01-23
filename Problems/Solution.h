@@ -49,3 +49,22 @@ ostream& operator<<(ostream& os, const ListNode* n)
 
 	return os;
 }
+
+ostream& operator<<(ostream& os, const vector<vector<int>>& v)
+{
+	cout << std::endl << '[' << std::endl;
+	for (auto& sv : v)
+	{
+		cout << '[';
+		for (auto& e : sv)
+		{
+			cout << e << " ";
+		}
+
+		cout << ']' << endl;
+	}
+
+	cout <<  ']' << std::endl;
+
+	return os;
+}

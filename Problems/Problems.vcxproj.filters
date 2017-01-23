@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="DynamicProgramming">
+      <UniqueIdentifier>{6e16aee6-3f64-4316-bbb3-b4d8fe37dab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SmartPtrs">
+      <UniqueIdentifier>{49812bed-8c0e-4684-a058-7715a5acb277}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Graph">
       <UniqueIdentifier>{d65d0aad-8715-4d5e-bc39-7f1a6d33b8fb}</UniqueIdentifier>
     </Filter>
@@ -37,6 +43,21 @@
     </ClInclude>
     <ClInclude Include="LogestSubstringWithoutRepeatingC.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NextPermuationSameDigits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Permuations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinChange.h">
+      <Filter>DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedPtr.h">
+      <Filter>SmartPtrs</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUniquePtr.h">
+      <Filter>SmartPtrs</Filter>
     </ClInclude>
     <ClInclude Include="Graph\Graph.h">
       <Filter>Graph</Filter>

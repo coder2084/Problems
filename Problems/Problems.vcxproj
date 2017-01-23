@@ -150,12 +150,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
-    <ClInclude Include="FrequencySort.h" />
-    <ClInclude Include="Graph\Graph.h" />
+    <ClInclude Include="CoinChange.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="LogestSubstringWithoutRepeatingC.h" />
-    <ClInclude Include="MergeTwoSortedArrays.h" />
-    <ClInclude Include="ReverseWordsInAString.h" />
+    <ClInclude Include="MyUniquePtr.h" />
+    <ClInclude Include="NextPermuationSameDigits.h" />
+    <ClInclude Include="Permuations.h" />
+    <ClInclude Include="SharedPtr.h" />
     <ClInclude Include="Solution.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="WordTransform.h" />
