@@ -153,8 +153,10 @@
     <ClInclude Include="CoinChange.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="LogestSubstringWithoutRepeatingC.h" />
+    <ClInclude Include="MyUniquePtr.h" />
     <ClInclude Include="NextPermuationSameDigits.h" />
     <ClInclude Include="Permuations.h" />
+    <ClInclude Include="SharedPtr.h" />
     <ClInclude Include="Solution.h" />
     <ClInclude Include="TwoSum.h" />
   </ItemGroup>

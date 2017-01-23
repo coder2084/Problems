@@ -16,6 +16,9 @@
     <Filter Include="DynamicProgramming">
       <UniqueIdentifier>{6e16aee6-3f64-4316-bbb3-b4d8fe37dab5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SmartPtrs">
+      <UniqueIdentifier>{49812bed-8c0e-4684-a058-7715a5acb277}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -46,6 +49,12 @@
     </ClInclude>
     <ClInclude Include="CoinChange.h">
       <Filter>DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedPtr.h">
+      <Filter>SmartPtrs</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUniquePtr.h">
+      <Filter>SmartPtrs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
