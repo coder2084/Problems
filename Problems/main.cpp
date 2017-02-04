@@ -5,6 +5,9 @@
 #include "Permuations.h"
 #include "CoinChange.h"
 #include "WordTransform.h"
+#include "SharedPtr.h"
+#include "WeakPtr.h"
+
 
 int main(int argc, char* argv[])
 {
@@ -16,11 +19,15 @@ int main(int argc, char* argv[])
 	v.push_back(std::make_unique<Permutations>());
 	v.push_back(std::make_unique<CoinChange>());
 	v.push_back(std::make_unique<WordTransform>());
+	v.push_back(std::make_unique<SharedPtrTest>());
+	v.push_back(std::make_unique<WeakPtrTest>());
 
 	for (auto&& elem : v)
 	{
 		elem->Test();
 	}
+
+	cout << (1 << 1) << endl;
 
 	return 0;
 }
