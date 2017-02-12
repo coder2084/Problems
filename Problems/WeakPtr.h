@@ -56,7 +56,7 @@ public:
 		{
 			//release old reference
 			if (mpRefCount && --(*mpRefCount) == 0)
-				delete mpRefCount;
+				delete mpRefCount, mpRefCount = nullptr;
 
 			//add new reference
 			mpValue = weakPtr.mpValue;
@@ -74,7 +74,7 @@ public:
 		{
 			//release old reference
 			if (mpRefCount && --(*mpRefCount) == 0)
-				delete mpRefCount;
+				delete mpRefCount, mpRefCount = nullptr;
 
 			//add new reference
 			mpValue = sharedPtr.mpValue;
@@ -84,6 +84,14 @@ public:
 		}
 
 		return *this;
+	}
+
+	void reset()
+	{
+		if (mpRefCount && --(*mpRefCount) == 0)
+			delete mpRefCount, mpRefCount = nullptr;
+
+		mpValue = nullptr;
 	}
 
 	SharedPtr<T> lock() const
@@ -96,6 +104,16 @@ public:
 			temp.mpValue = mpValue;
 
 		return temp;
+	}
+
+	int use_count() const
+	{
+		return mpRefCount ? *mpRefCount : 0;
+	}
+
+	bool expired() const
+	{
+		return use_count() == 0;
 	}
 };
 

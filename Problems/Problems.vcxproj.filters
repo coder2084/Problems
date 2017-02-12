@@ -83,5 +83,11 @@
     <ClInclude Include="WeakPtr.h">
       <Filter>SmartPtrs</Filter>
     </ClInclude>
+    <ClInclude Include="EditDistance.h">
+      <Filter>DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="CountPath.h">
+      <Filter>DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -152,8 +152,10 @@
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="BinaryTreePaths.h" />
     <ClInclude Include="CoinChange.h" />
+    <ClInclude Include="CountPath.h" />
     <ClInclude Include="FrequencySort.h" />
     <ClInclude Include="Graph\Graph.h" />
+    <ClInclude Include="EditDistance.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="LogestSubstringWithoutRepeatingC.h" />
     <ClInclude Include="MergeTwoSortedArrays.h" />
