@@ -24,7 +24,7 @@ private:
 		string letters("abcdefghijklmnopqrstuvwxyz");
 		for (auto& s:dictionary )
 		{
-			for (int i = 0; i < s.length(); i++)
+			for (size_t i = 0; i < s.length(); i++)
 			{
 				//remove one letter
 				tmp = s.substr(0, i) + s.substr(i + 1, s.length() - 1 - i);

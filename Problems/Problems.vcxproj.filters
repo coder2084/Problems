@@ -5,10 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="DynamicProgramming">
       <UniqueIdentifier>{6e16aee6-3f64-4316-bbb3-b4d8fe37dab5}</UniqueIdentifier>
     </Filter>
@@ -22,6 +18,12 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Trees">
+      <UniqueIdentifier>{a1fbac23-2ff0-4a99-a188-7422b90db338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{b0dde9d7-8d4f-456f-b4a8-69a154902452}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -29,13 +31,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Solution.h">
-      <Filter>Graph\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="AddTwoNumbers.h">
-      <Filter>Graph\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="headers.h">
       <Filter>Graph\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TwoSum.h">
@@ -88,6 +84,15 @@
     </ClInclude>
     <ClInclude Include="CountPath.h">
       <Filter>DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="SumRootToLeaf.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution.h">
+      <Filter>utilities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

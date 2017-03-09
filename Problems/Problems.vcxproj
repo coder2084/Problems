@@ -166,6 +166,7 @@
     <ClInclude Include="ReverseWordsInAString.h" />
     <ClInclude Include="SharedPtr.h" />
     <ClInclude Include="Solution.h" />
+    <ClInclude Include="SumRootToLeaf.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="WeakPtr.h" />
     <ClInclude Include="WordTransform.h" />
