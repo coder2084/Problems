@@ -18,6 +18,14 @@ public:
 
 };
 
+struct Node
+{
+	Node(int v) : val(v) {}
+	int val;
+	unique_ptr<Node> left;
+	unique_ptr<Node> right;
+};
+
 ostream& operator<<(ostream& os, const vector<int>& v)
 {
 	for (auto&& elem : v)

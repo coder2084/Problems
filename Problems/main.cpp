@@ -11,6 +11,7 @@
 #include "CountPath.h"
 #include "LIS.h"
 #include "LowerBound.h"
+#include "SumRootToLeaf.h"
 
 int main(int argc, char* argv[])
 {
@@ -26,8 +27,6 @@ int main(int argc, char* argv[])
 	v.push_back(std::make_unique<WeakPtrTest>());
 	v.push_back(std::make_unique<EditDistance>());
 	v.push_back(std::make_unique<CountPath>());
-	v.push_back(std::make_unique<LIS>());
-	v.push_back(std::make_unique<LowerBound>());
 
 	for (auto&& elem : v)
 	{
