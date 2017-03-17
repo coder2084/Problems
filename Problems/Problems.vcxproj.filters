@@ -18,7 +18,7 @@
     <Filter Include="Graph">
       <UniqueIdentifier>{d65d0aad-8715-4d5e-bc39-7f1a6d33b8fb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Graph\Header Files">
+    <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
@@ -30,25 +30,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AddTwoNumbers.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="headers.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TwoSum.h">
-      <Filter>Graph\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LogestSubstringWithoutRepeatingC.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NextPermuationSameDigits.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Permuations.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CoinChange.h">
       <Filter>DynamicProgramming</Filter>
@@ -60,25 +57,25 @@
       <Filter>SmartPtrs</Filter>
     </ClInclude>
     <ClInclude Include="WordTransform.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Graph\Graph.h">
       <Filter>Graph</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTreePaths.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FrequencySort.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MergeTwoSortedArrays.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReverseInteger.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReverseWordsInAString.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WeakPtr.h">
       <Filter>SmartPtrs</Filter>
@@ -88,6 +85,18 @@
     </ClInclude>
     <ClInclude Include="CountPath.h">
       <Filter>DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="LIS.h">
+      <Filter>DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="LogestSubstringWithoutRepeatingC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LowerBound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WordBreak.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -157,7 +157,9 @@
     <ClInclude Include="Graph\Graph.h" />
     <ClInclude Include="EditDistance.h" />
     <ClInclude Include="headers.h" />
+    <ClInclude Include="LIS.h" />
     <ClInclude Include="LogestSubstringWithoutRepeatingC.h" />
+    <ClInclude Include="LowerBound.h" />
     <ClInclude Include="MergeTwoSortedArrays.h" />
     <ClInclude Include="MyUniquePtr.h" />
     <ClInclude Include="NextPermuationSameDigits.h" />
@@ -168,6 +170,7 @@
     <ClInclude Include="Solution.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="WeakPtr.h" />
+    <ClInclude Include="WordBreak.h" />
     <ClInclude Include="WordTransform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
