@@ -76,3 +76,17 @@ ostream& operator<<(ostream& os, const vector<vector<int>>& v)
 
 	return os;
 }
+
+ostream& operator<<(ostream& os, const vector<string>& v)
+{
+	
+	for (auto& sv : v)
+	{
+		cout << '[' << sv << "] ";
+		
+	}
+
+	cout << std::endl;
+
+	return os;
+}

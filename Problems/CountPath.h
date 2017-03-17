@@ -75,7 +75,7 @@ public:
 		
 		cout << "CountPath dynamic : " << SolveDynamic(m,n) << endl;
 
-		string path("");
-		printPath(0, 0, path);
+		//string path("");
+		//printPath(0, 0, path);
 	}
 };
