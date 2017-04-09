@@ -25,6 +25,12 @@
     <Filter Include="Trees">
       <UniqueIdentifier>{d1c69181-2858-4ebf-a925-340afe413aa8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Adhoc">
+      <UniqueIdentifier>{7c3f2877-7040-4fad-ab84-ad6bcd348a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{7fb78561-bb65-467f-bd71-97b3e13db4c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -35,13 +41,7 @@
     <ClInclude Include="Solution.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AddTwoNumbers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="headers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TwoSum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NextPermuationSameDigits.h">
@@ -103,6 +103,24 @@
     </ClInclude>
     <ClInclude Include="BinaryTreePaths.h">
       <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentTree.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxInSortedRotatedArray.h">
+      <Filter>Adhoc</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTwoNumbers.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoSum.h">
+      <Filter>Adhoc</Filter>
+    </ClInclude>
+    <ClInclude Include="Kruskal.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Hamiltonian.h">
+      <Filter>Graph</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

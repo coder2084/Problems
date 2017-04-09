@@ -51,6 +51,20 @@ private:
 			s = tmp;
 		}
 	}
+
+	void AlternativeSol(Node* root, vector<string>& vs, string s)
+	{
+		if (root == nullptr) return;
+
+		if (root->left == nullptr && root->right == nullptr)
+		{
+			vs.push_back(s + to_string(root->val));
+			return;
+		}		
+
+		AlternativeSol(root->left.get(), vs, s + to_string(root->val)+"->");
+		AlternativeSol(root->right.get(), vs, s + to_string(root->val)+"->");
+	}
 		
 public:
 	void Test()
