@@ -24,6 +24,12 @@
     <Filter Include="utilities">
       <UniqueIdentifier>{b0dde9d7-8d4f-456f-b4a8-69a154902452}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Competitive">
+      <UniqueIdentifier>{e140d9bc-f627-4c53-b398-6fce68ec9785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Competitive\WorldCodeSprint10">
+      <UniqueIdentifier>{e0e3720b-37a6-43d7-beb9-68024cf3c911}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -93,6 +99,21 @@
     </ClInclude>
     <ClInclude Include="Solution.h">
       <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="competitive.h">
+      <Filter>Competitive</Filter>
+    </ClInclude>
+    <ClInclude Include="MaximalAndSubsequence.h">
+      <Filter>Competitive\WorldCodeSprint10</Filter>
+    </ClInclude>
+    <ClInclude Include="MaximumDisjointSubtreeProduct.h">
+      <Filter>Competitive\WorldCodeSprint10</Filter>
+    </ClInclude>
+    <ClInclude Include="NodePointMappings.h">
+      <Filter>Competitive\WorldCodeSprint10</Filter>
+    </ClInclude>
+    <ClInclude Include="PermutationHapiness.h">
+      <Filter>Competitive\WorldCodeSprint10</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
