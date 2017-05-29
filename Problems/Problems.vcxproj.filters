@@ -5,6 +5,10 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
     <Filter Include="DynamicProgramming">
       <UniqueIdentifier>{6e16aee6-3f64-4316-bbb3-b4d8fe37dab5}</UniqueIdentifier>
     </Filter>
@@ -14,15 +18,18 @@
     <Filter Include="Graph">
       <UniqueIdentifier>{d65d0aad-8715-4d5e-bc39-7f1a6d33b8fb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Graph\Header Files">
+    <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Trees">
-      <UniqueIdentifier>{a1fbac23-2ff0-4a99-a188-7422b90db338}</UniqueIdentifier>
+      <UniqueIdentifier>{d1c69181-2858-4ebf-a925-340afe413aa8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="utilities">
-      <UniqueIdentifier>{b0dde9d7-8d4f-456f-b4a8-69a154902452}</UniqueIdentifier>
+    <Filter Include="Adhoc">
+      <UniqueIdentifier>{7c3f2877-7040-4fad-ab84-ad6bcd348a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{7fb78561-bb65-467f-bd71-97b3e13db4c2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Competitive">
       <UniqueIdentifier>{e140d9bc-f627-4c53-b398-6fce68ec9785}</UniqueIdentifier>
@@ -37,20 +44,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AddTwoNumbers.h">
-      <Filter>Graph\Header Files</Filter>
+    <ClInclude Include="Solution.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TwoSum.h">
-      <Filter>Graph\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LogestSubstringWithoutRepeatingC.h">
-      <Filter>Graph\Header Files</Filter>
+    <ClInclude Include="headers.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NextPermuationSameDigits.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Permuations.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CoinChange.h">
       <Filter>DynamicProgramming</Filter>
@@ -62,25 +66,22 @@
       <Filter>SmartPtrs</Filter>
     </ClInclude>
     <ClInclude Include="WordTransform.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Graph\Graph.h">
       <Filter>Graph</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryTreePaths.h">
-      <Filter>Graph\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="FrequencySort.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MergeTwoSortedArrays.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReverseInteger.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReverseWordsInAString.h">
-      <Filter>Graph\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WeakPtr.h">
       <Filter>SmartPtrs</Filter>
@@ -91,14 +92,41 @@
     <ClInclude Include="CountPath.h">
       <Filter>DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="LIS.h">
+      <Filter>DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="LogestSubstringWithoutRepeatingC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LowerBound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WordBreak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="SumRootToLeaf.h">
       <Filter>Trees</Filter>
     </ClInclude>
-    <ClInclude Include="headers.h">
-      <Filter>utilities</Filter>
+    <ClInclude Include="BinaryTreePaths.h">
+      <Filter>Trees</Filter>
     </ClInclude>
-    <ClInclude Include="Solution.h">
-      <Filter>utilities</Filter>
+    <ClInclude Include="SegmentTree.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxInSortedRotatedArray.h">
+      <Filter>Adhoc</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTwoNumbers.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoSum.h">
+      <Filter>Adhoc</Filter>
+    </ClInclude>
+    <ClInclude Include="Kruskal.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Hamiltonian.h">
+      <Filter>Graph</Filter>
     </ClInclude>
     <ClInclude Include="competitive.h">
       <Filter>Competitive</Filter>

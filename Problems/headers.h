@@ -8,6 +8,7 @@
 #include <array>
 #include <iostream>
 #include <sstream>
+#include <algorithm>
 #include <memory>
 #include <queue>
 

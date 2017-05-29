@@ -11,6 +11,8 @@ struct ListNode
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
+struct Edge { int src, dest, weight; };
+
 class Solution
 {
 public:
@@ -74,5 +76,29 @@ ostream& operator<<(ostream& os, const vector<vector<int>>& v)
 
 	cout <<  ']' << std::endl;
 
+	return os;
+}
+
+ostream& operator<<(ostream& os, const vector<string>& v)
+{
+	
+	for (auto& sv : v)
+	{
+		cout << '[' << sv << "] ";
+		
+	}
+
+	cout << std::endl;
+
+	return os;
+}
+
+ostream& operator<<(ostream& os, const vector<Edge>& v)
+{
+	for (auto& e : v)
+	{
+		cout << e.src << "---" << e.dest << " == " << e.weight << endl;
+	}
+	
 	return os;
 }

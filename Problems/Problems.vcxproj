@@ -157,10 +157,11 @@
     <ClInclude Include="FrequencySort.h" />
     <ClInclude Include="Graph\Graph.h" />
     <ClInclude Include="EditDistance.h" />
+    <ClInclude Include="Hamiltonian.h" />
     <ClInclude Include="headers.h" />
+    <ClInclude Include="Kruskal.h" />
+    <ClInclude Include="LIS.h" />
     <ClInclude Include="LogestSubstringWithoutRepeatingC.h" />
-    <ClInclude Include="MaximalAndSubsequence.h" />
-    <ClInclude Include="MaximumDisjointSubtreeProduct.h" />
     <ClInclude Include="MergeTwoSortedArrays.h" />
     <ClInclude Include="MyUniquePtr.h" />
     <ClInclude Include="NextPermuationSameDigits.h" />
@@ -169,11 +170,13 @@
     <ClInclude Include="PermutationHapiness.h" />
     <ClInclude Include="ReverseInteger.h" />
     <ClInclude Include="ReverseWordsInAString.h" />
+    <ClInclude Include="SegmentTree.h" />
     <ClInclude Include="SharedPtr.h" />
     <ClInclude Include="Solution.h" />
     <ClInclude Include="SumRootToLeaf.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="WeakPtr.h" />
+    <ClInclude Include="WordBreak.h" />
     <ClInclude Include="WordTransform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

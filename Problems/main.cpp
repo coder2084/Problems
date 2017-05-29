@@ -9,7 +9,13 @@
 #include "WeakPtr.h"
 #include "EditDistance.h"
 #include "CountPath.h"
+#include "LIS.h"
+#include "LowerBound.h"
 #include "SumRootToLeaf.h"
+#include "BinaryTreePaths.h"
+#include "MaxInSortedRotatedArray.h"
+#include "Kruskal.h"
+#include "Hamiltonian.h"
 
 int main(int argc, char* argv[])
 {
@@ -26,12 +32,14 @@ int main(int argc, char* argv[])
 	v.push_back(std::make_unique<EditDistance>());
 	v.push_back(std::make_unique<CountPath>());
 	v.push_back(std::make_unique<SumRootToLeaf>());
+	v.push_back(std::make_unique<BinaryTreePaths>());
+	v.push_back(std::make_unique<Kruskal>());
+	v.push_back(std::make_unique<Hamiltonian>());
 
 	for (auto&& elem : v)
 	{
 		elem->Test();
 	}
-
 
 	return 0;
 }
